@@ -1,0 +1,3 @@
+.map(&:attr) will allow you to loop through your model's attributes and only return those values for the key listed after the '&'
+
+Amazing!
