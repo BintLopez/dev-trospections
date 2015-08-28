@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Quick Python Setup"
+date:   2015-06-30 22:43:00
+categories: jekyll update
+---
+
 What I just did to get a quick python env up and running.
 
 On command line prompt...

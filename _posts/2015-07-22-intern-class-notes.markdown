@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Unicorn workers under the hood"
+date:   2015-06-30 22:43:00
+categories: jekyll update
+---
+
 You --> URL --> DNS ( avant.com -> IP Address )
 
 DNS --> (Chome -> OS -> Comcast/RCN -> Canonical Lookups (ICANN))

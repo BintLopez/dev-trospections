@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "Next unless is a mindfuck"
+date:   2015-06-30 22:43:00
+categories: jekyll update
+---
 
 next unless does not work how I'd think it would...
 
