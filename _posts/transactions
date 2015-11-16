@@ -1,0 +1,3 @@
+nested transaction need
+
+transaction { requires_new: true } do  for the inner transaction or else if the inner one rolls back it won't bubble up to the out transaction and that will still commit
