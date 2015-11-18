@@ -9,6 +9,10 @@ This is me...
 {% highlight ruby %}
 class Human
 
+  MY_CONSTANT = 1234
+  #comment
+  Namespace::thing
+
   attr_accessor :name
 
   def initialize(name)

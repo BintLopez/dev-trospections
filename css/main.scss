@@ -7,17 +7,21 @@
 
 //color library
 $bright-red-orange: rgb(240,60,65);
-$cream: rgb(208,209,182);
+$beige: rgb(208,209,182);
 $burnt-orange: #DA5400;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$cream: rgb(245,245,215);
+$pink: lighten(#d14, 30%);
+$magenta: lighten(#990073, 15%);
+$light-green: lighten(green, 40%);
 
 //color assignments
 $text-color:       #111;
 $background-pattern: "../img/skulls.png";
 $brand-color:      $burnt-orange;
-$background-color: lighten($brand-color, 10%);
+$background-color: $beige;//lighten($brand-color, 10%);
 $light-text: $cream;
 
 
