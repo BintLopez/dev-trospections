@@ -5,29 +5,37 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 
-// Our variables
+//color library
+$bright-red-orange: rgb(240,60,65);
+$cream: rgb(208,209,182);
+$burnt-orange: #DA5400;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+//color assignments
+$text-color:       #111;
+$background-pattern: "../img/skulls.png";
+$brand-color:      $burnt-orange;
+$background-color: lighten($brand-color, 10%);
+$light-text: $cream;
+
+
+//font settings
 $header-font: 'Shadows Into Light', cursive;
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-pattern: "../img/skulls.png";
-$background-color: #fdfdfd;
-$brand-color:      #DA5400; //#2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
 
 
 
