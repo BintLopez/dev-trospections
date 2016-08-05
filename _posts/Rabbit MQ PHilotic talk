@@ -1,0 +1,48 @@
+Rabbit MQ PHilotic talk
+
+publisher
+rabbit mq is the message broker
+and then you have a consumer
+
+publisher -- has a header
+exhcange -- routing logic happens here
+queue -- gets a *copy* of the message, not the message itself
+consumer
+
+direct exchange
+fan out exchange
+topic exchange
+headers exchange
+
+Philotic assumes you are using headers exchange
+- but can override (default is headers exchange)
+
+anonymous -- only exists with a consumer connected (unnamed, unpersistent queue -- specific to philotic)
+persistent queues -- exists regardless of whether has a consumer connected; can queue up jobs
+durable queue -- written to disk, not just stored in mem
+
+how much can be stored in a queue is dependent upon our cluster (i think max 12 GB)
+
+
+Metro
+Blinds
+CalcPastDue
+
+header vs payload
+* both are key, value pairs
+* header should be small -- it's for matching a publisher and consumer and should not contain sensitve data
+* header is listened for
+* payload is just a string from rabbit mq's perspective, but default for philotic is json serialization. Can use encryption, yml, etc serialization
+
+headers are the metadata
+payload is the actual data (like message body)
+
+Philotic.endure -- I'm done but don't kill me (for the thread); keeps the parent thread alive -- multithreadedness
+
+publishing is just like enqueuing!!!!
+
+
+Need to add a queue through rabbit mq interface @ http://localhost:15672/ (guest, guest)
+default rabbit mq exchange is philotic.headers
+
+consumer then needs to subscribe_to :calculate_past_due

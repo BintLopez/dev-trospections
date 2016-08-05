@@ -71,7 +71,7 @@ Did any of the gem authors write about what they did? Can you learn from their p
 
 How to DIY build
 * map out your solution
-* model it and figure out it's architecture
+* model it and figure out its architecture
 * use TDD or BDD
 * document it as you go
 * the headache test:  if you hate working on it, then something's probs not working
@@ -85,3 +85,4 @@ Whether using a gem or DIYing, KEEP IT SIMPLE as possible
 
 If you use a gem...
 * yay! you're not the maintainer...
+* but... also can't control what the maintainer does or doesn't do

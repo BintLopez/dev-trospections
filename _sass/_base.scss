@@ -130,11 +130,12 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 20px;
-    background-color: $grey-color-dark;//lighten($grey-color-dark, 10%);//#eef;
+    background-color: $grey-color-dark;
 }
 
 code {
     padding: 1px 5px;
+    color: $beige;
 }
 
 pre {

@@ -1,3 +1,11 @@
+---
+layout: post
+title:  Algorithms and Games
+date:   2015-06-30 22:43:00
+categories: rubyconf algorithms
+---
+
+
 Board (static 16 x 16)
 Walls and targets (changes each game)
 Goal (changes each turn)

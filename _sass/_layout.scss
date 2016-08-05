@@ -11,12 +11,16 @@
 }
 
 .site-title {
-    font-size: 36px;
+    font-size: 45px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
     font-family: $header-font;
+    margin: 0 auto;
+    // background-color: yellow;
+    padding: 40px;
+    display: block;
 
     &,
     &:visited {
