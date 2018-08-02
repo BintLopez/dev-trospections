@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: post
 title:  "Resque Me, rspec! And lessons learned in testing"
 date:   2016-01-19
 categories: testing resque rspec mailers
----
+--- -->
 
 When you embark on writing a unit test, it's really easy to approach the test with the correct mentality. The mentality that no, you won't rely on Factory Girl data, of course you'll stub and mock out everything you need, and yes, the test will definitely be a true unit test. However, when the setup of your test involves ActiveRecord relations, callbacks, and tons of associated data the task becomes more daunting. When you throw in the additional complication of testing logic in background job processors and mailers, it's easy to throw your hands up in frustration and succumb to Factory Girl's siren song. Don't succumb to the sirens. Tempting as they are, they only lead to shipwrecks.
 
